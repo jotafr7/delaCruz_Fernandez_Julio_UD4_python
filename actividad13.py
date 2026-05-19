@@ -2,6 +2,7 @@
 diccionario_componentes = []
 fin_programa = ""
 
+#Con este bucle se pide al usuario que introduzca los Watios de la ram, cpu y gpu, y se guardan en un diccionario. El programa termina cuando el usuario introduce "fin".
 while fin_programa != "fin":
     ram = float(input("Introduce los Watios de la ram: "))
     cpu = float(input("Introduce los Watios de la cpu: "))
