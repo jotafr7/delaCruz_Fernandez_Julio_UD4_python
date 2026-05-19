@@ -1,6 +1,7 @@
 # Lista donde se guardarán los ordenadores
 ordenadores = []
 
+# Bucle para introducir los datos de los ordenadores
 while True:
     marca = input("Introduce la marca del ordenador (o escribe 'fin' para terminar): ")
 
