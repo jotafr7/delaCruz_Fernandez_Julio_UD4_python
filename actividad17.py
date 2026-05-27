@@ -1,14 +1,10 @@
 # Lista donde se guardarán los ordenadores
 ordenadores = []
+marca=""
 
 # Bucle para introducir los datos de los ordenadores
-while True:
+while  marca == "fin":
     marca = input("Introduce la marca del ordenador (o escribe 'fin' para terminar): ")
-
-    # Salir del programa
-    if marca == "fin":
-        break
-
     modelo = input("Introduce el modelo: ")
     ram = input("Introduce la memoria RAM: ")
     disco = input("Introduce la capacidad del disco: ")

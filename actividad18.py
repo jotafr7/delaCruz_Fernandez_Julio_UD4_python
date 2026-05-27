@@ -1,6 +1,7 @@
 # Función para calcular el precio con IVA
 def calcular_iva(precio):
     precio_final = precio * 1.21
+    
     return precio_final
 
 # Pedir precio al usuario
